@@ -1,0 +1,1426 @@
+16-May-2024 18:13:30.826 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.89
+16-May-2024 18:13:30.830 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 3 2024 20:22:11 UTC
+16-May-2024 18:13:30.830 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.89.0
+16-May-2024 18:13:30.830 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+16-May-2024 18:13:30.830 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+16-May-2024 18:13:30.830 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+16-May-2024 18:13:30.830 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Users\Legion\.jdks\openjdk-22.0.1
+16-May-2024 18:13:30.831 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           22.0.1+8-16
+16-May-2024 18:13:30.831 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+16-May-2024 18:13:30.831 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\DevOps\week4\geocit\apache-tomcat-9.0.89
+16-May-2024 18:13:30.831 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\DevOps\week4\geocit\apache-tomcat-9.0.89
+16-May-2024 18:13:30.837 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+16-May-2024 18:13:30.837 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+16-May-2024 18:13:30.838 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+16-May-2024 18:13:30.838 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+16-May-2024 18:13:30.838 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+16-May-2024 18:13:30.838 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:/DevOps/week4/geocit/apache-tomcat-9.0.89/conf/logging.properties
+16-May-2024 18:13:30.838 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+16-May-2024 18:13:30.838 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+16-May-2024 18:13:30.838 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+16-May-2024 18:13:30.838 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+16-May-2024 18:13:30.838 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+16-May-2024 18:13:30.838 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:/DevOps/week4/geocit/apache-tomcat-9.0.89
+16-May-2024 18:13:30.838 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:/DevOps/week4/geocit/apache-tomcat-9.0.89
+16-May-2024 18:13:30.838 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:/DevOps/week4/geocit/apache-tomcat-9.0.89/temp
+16-May-2024 18:13:30.843 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.3.0] using APR version [1.7.4].
+16-May-2024 18:13:30.843 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+16-May-2024 18:13:30.843 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+16-May-2024 18:13:30.859 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+16-May-2024 18:13:31.143 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+16-May-2024 18:13:31.160 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [542] milliseconds
+16-May-2024 18:13:31.209 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+16-May-2024 18:13:31.210 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.89]
+16-May-2024 18:13:31.224 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [D:\DevOps\week4\geocit\apache-tomcat-9.0.89\webapps\citizen.war]
+16-May-2024 18:13:37.719 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-May-2024 18:13:44.314 SEVERE [main] org.apache.catalina.core.StandardContext.startInternal One or more listeners failed to start. Full details will be found in the appropriate container log file
+16-May-2024 18:13:44.319 SEVERE [main] org.apache.catalina.core.StandardContext.startInternal Context [/citizen] startup failed due to previous errors
+16-May-2024 18:13:44.340 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [citizen] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+16-May-2024 18:13:44.340 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [citizen] appears to have started a thread named [cluster-1-localhost:27017] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+ java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1758)
+ com.mongodb.ServerMonitor$ServerMonitorRunnable.waitForSignalOrTimeout(ServerMonitor.java:178)
+ com.mongodb.ServerMonitor$ServerMonitorRunnable.waitForNext(ServerMonitor.java:159)
+ com.mongodb.ServerMonitor$ServerMonitorRunnable.run(ServerMonitor.java:125)
+ java.base/java.lang.Thread.run(Thread.java:1570)
+16-May-2024 18:13:44.340 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [citizen] appears to have started a thread named [MongoCleaner302183330] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/java.lang.Thread.sleepNanos0(Native Method)
+ java.base/java.lang.Thread.sleepNanos(Thread.java:491)
+ java.base/java.lang.Thread.sleep(Thread.java:522)
+ com.mongodb.Mongo$CursorCleanerThread.run(Mongo.java:796)
+16-May-2024 18:13:44.348 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [D:\DevOps\week4\geocit\apache-tomcat-9.0.89\webapps\citizen.war] has finished in [13,126] ms
+16-May-2024 18:13:44.348 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\DevOps\week4\geocit\apache-tomcat-9.0.89\webapps\docs]
+16-May-2024 18:13:44.392 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\DevOps\week4\geocit\apache-tomcat-9.0.89\webapps\docs] has finished in [44] ms
+16-May-2024 18:13:44.392 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\DevOps\week4\geocit\apache-tomcat-9.0.89\webapps\examples]
+16-May-2024 18:13:44.580 SEVERE [main] org.apache.catalina.startup.HostConfig.deployDirectory Error deploying web application directory [D:\DevOps\week4\geocit\apache-tomcat-9.0.89\webapps\examples]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:602)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:571)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:603)
+		at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1175)
+		at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1888)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:123)
+		at org.apache.catalina.startup.HostConfig.deployDirectories(HostConfig.java:1086)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:470)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1584)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:312)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:114)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:402)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:345)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:776)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:721)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1203)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1193)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:749)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:211)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:415)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:878)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:735)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:473)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/examples]]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:419)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:186)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:599)
+		... 35 more
+	Caused by: java.lang.NoClassDefFoundError: websocket/drawboard/Room$Player
+		at java.base/java.lang.Class.getDeclaredMethods0(Native Method)
+		at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3601)
+		at java.base/java.lang.Class.getDeclaredMethods(Class.java:2686)
+		at org.apache.tomcat.websocket.pojo.PojoMethodMapping.<init>(PojoMethodMapping.java:112)
+		at org.apache.tomcat.websocket.server.WsServerContainer.addEndpoint(WsServerContainer.java:144)
+		at org.apache.tomcat.websocket.server.WsServerContainer.addEndpoint(WsServerContainer.java:120)
+		at org.apache.tomcat.websocket.server.WsSci.onStartup(WsSci.java:112)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4438)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		... 36 more
+	Caused by: java.lang.ClassNotFoundException: websocket.drawboard.Room$Player
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1308)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1120)
+		... 45 more
+16-May-2024 18:13:44.581 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\DevOps\week4\geocit\apache-tomcat-9.0.89\webapps\examples] has finished in [189] ms
+16-May-2024 18:13:44.582 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\DevOps\week4\geocit\apache-tomcat-9.0.89\webapps\host-manager]
+16-May-2024 18:13:44.608 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\DevOps\week4\geocit\apache-tomcat-9.0.89\webapps\host-manager] has finished in [27] ms
+16-May-2024 18:13:44.609 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\DevOps\week4\geocit\apache-tomcat-9.0.89\webapps\manager]
+16-May-2024 18:13:44.629 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\DevOps\week4\geocit\apache-tomcat-9.0.89\webapps\manager] has finished in [20] ms
+16-May-2024 18:13:44.631 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\DevOps\week4\geocit\apache-tomcat-9.0.89\webapps\ROOT]
+16-May-2024 18:13:44.645 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\DevOps\week4\geocit\apache-tomcat-9.0.89\webapps\ROOT] has finished in [14] ms
+16-May-2024 18:13:44.648 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+16-May-2024 18:13:44.660 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [13498] milliseconds
+16-May-2024 18:14:06.359 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.89
+16-May-2024 18:14:06.362 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 3 2024 20:22:11 UTC
+16-May-2024 18:14:06.362 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.89.0
+16-May-2024 18:14:06.362 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+16-May-2024 18:14:06.362 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+16-May-2024 18:14:06.362 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+16-May-2024 18:14:06.362 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Users\Legion\.jdks\openjdk-22.0.1
+16-May-2024 18:14:06.362 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           22.0.1+8-16
+16-May-2024 18:14:06.362 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+16-May-2024 18:14:06.362 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\DevOps\week4\geocit\apache-tomcat-9.0.89
+16-May-2024 18:14:06.362 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\DevOps\week4\geocit\apache-tomcat-9.0.89
+16-May-2024 18:14:06.371 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+16-May-2024 18:14:06.371 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+16-May-2024 18:14:06.371 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+16-May-2024 18:14:06.371 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+16-May-2024 18:14:06.372 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+16-May-2024 18:14:06.372 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:/DevOps/week4/geocit/apache-tomcat-9.0.89/conf/logging.properties
+16-May-2024 18:14:06.372 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+16-May-2024 18:14:06.372 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+16-May-2024 18:14:06.372 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+16-May-2024 18:14:06.372 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+16-May-2024 18:14:06.372 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+16-May-2024 18:14:06.372 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:/DevOps/week4/geocit/apache-tomcat-9.0.89
+16-May-2024 18:14:06.372 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:/DevOps/week4/geocit/apache-tomcat-9.0.89
+16-May-2024 18:14:06.372 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:/DevOps/week4/geocit/apache-tomcat-9.0.89/temp
+16-May-2024 18:14:06.375 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.3.0] using APR version [1.7.4].
+16-May-2024 18:14:06.375 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+16-May-2024 18:14:06.375 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+16-May-2024 18:14:06.380 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+16-May-2024 18:14:06.622 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+16-May-2024 18:14:06.634 SEVERE [main] org.apache.catalina.util.LifecycleBase.handleSubClassException Failed to initialize component [Connector["http-nio-8080"]]
+	org.apache.catalina.LifecycleException: Protocol handler initialization failed
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1012)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:127)
+		at org.apache.catalina.core.StandardService.initInternal(StandardService.java:525)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:127)
+		at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:990)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:127)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:686)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:709)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:302)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:472)
+	Caused by: java.net.BindException: Address already in use: bind
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:565)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:344)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:301)
+		at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:268)
+		at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:223)
+		at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1355)
+		at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1368)
+		at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:654)
+		at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:75)
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1010)
+		... 11 more
+16-May-2024 18:14:06.635 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [430] milliseconds
+16-May-2024 18:14:06.671 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+16-May-2024 18:14:06.671 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.89]
+16-May-2024 18:14:06.685 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [D:\DevOps\week4\geocit\apache-tomcat-9.0.89\webapps\citizen.war]
+16-May-2024 18:14:09.128 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-May-2024 18:14:15.928 SEVERE [main] org.apache.catalina.core.StandardContext.startInternal One or more listeners failed to start. Full details will be found in the appropriate container log file
+16-May-2024 18:14:15.934 SEVERE [main] org.apache.catalina.core.StandardContext.startInternal Context [/citizen] startup failed due to previous errors
+16-May-2024 18:14:15.966 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [citizen] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+16-May-2024 18:14:15.966 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [citizen] appears to have started a thread named [cluster-1-localhost:27017] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+ java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1758)
+ com.mongodb.ServerMonitor$ServerMonitorRunnable.waitForSignalOrTimeout(ServerMonitor.java:178)
+ com.mongodb.ServerMonitor$ServerMonitorRunnable.waitForNext(ServerMonitor.java:159)
+ com.mongodb.ServerMonitor$ServerMonitorRunnable.run(ServerMonitor.java:125)
+ java.base/java.lang.Thread.run(Thread.java:1570)
+16-May-2024 18:14:15.966 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [citizen] appears to have started a thread named [MongoCleaner1302978037] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/java.lang.Thread.sleepNanos0(Native Method)
+ java.base/java.lang.Thread.sleepNanos(Thread.java:491)
+ java.base/java.lang.Thread.sleep(Thread.java:522)
+ com.mongodb.Mongo$CursorCleanerThread.run(Mongo.java:796)
+16-May-2024 18:14:15.975 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [D:\DevOps\week4\geocit\apache-tomcat-9.0.89\webapps\citizen.war] has finished in [9,289] ms
+16-May-2024 18:14:15.975 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\DevOps\week4\geocit\apache-tomcat-9.0.89\webapps\docs]
+16-May-2024 18:14:16.022 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\DevOps\week4\geocit\apache-tomcat-9.0.89\webapps\docs] has finished in [46] ms
+16-May-2024 18:14:16.022 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\DevOps\week4\geocit\apache-tomcat-9.0.89\webapps\examples]
+16-May-2024 18:14:16.229 SEVERE [main] org.apache.catalina.startup.HostConfig.deployDirectory Error deploying web application directory [D:\DevOps\week4\geocit\apache-tomcat-9.0.89\webapps\examples]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:602)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:571)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:603)
+		at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1175)
+		at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1888)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:123)
+		at org.apache.catalina.startup.HostConfig.deployDirectories(HostConfig.java:1086)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:470)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1584)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:312)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:114)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:402)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:345)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:776)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:721)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1203)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1193)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:749)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:211)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:415)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:878)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:735)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:473)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/examples]]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:419)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:186)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:599)
+		... 35 more
+	Caused by: java.lang.NoClassDefFoundError: websocket/drawboard/Room$Player
+		at java.base/java.lang.Class.getDeclaredMethods0(Native Method)
+		at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3601)
+		at java.base/java.lang.Class.getDeclaredMethods(Class.java:2686)
+		at org.apache.tomcat.websocket.pojo.PojoMethodMapping.<init>(PojoMethodMapping.java:112)
+		at org.apache.tomcat.websocket.server.WsServerContainer.addEndpoint(WsServerContainer.java:144)
+		at org.apache.tomcat.websocket.server.WsServerContainer.addEndpoint(WsServerContainer.java:120)
+		at org.apache.tomcat.websocket.server.WsSci.onStartup(WsSci.java:112)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4438)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		... 36 more
+	Caused by: java.lang.ClassNotFoundException: websocket.drawboard.Room$Player
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1308)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1120)
+		... 45 more
+16-May-2024 18:14:16.230 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\DevOps\week4\geocit\apache-tomcat-9.0.89\webapps\examples] has finished in [208] ms
+16-May-2024 18:14:16.230 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\DevOps\week4\geocit\apache-tomcat-9.0.89\webapps\host-manager]
+16-May-2024 18:14:16.265 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\DevOps\week4\geocit\apache-tomcat-9.0.89\webapps\host-manager] has finished in [34] ms
+16-May-2024 18:14:16.265 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\DevOps\week4\geocit\apache-tomcat-9.0.89\webapps\manager]
+16-May-2024 18:14:16.291 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\DevOps\week4\geocit\apache-tomcat-9.0.89\webapps\manager] has finished in [26] ms
+16-May-2024 18:14:16.292 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\DevOps\week4\geocit\apache-tomcat-9.0.89\webapps\ROOT]
+16-May-2024 18:14:16.308 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\DevOps\week4\geocit\apache-tomcat-9.0.89\webapps\ROOT] has finished in [16] ms
+16-May-2024 18:14:16.314 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [9678] milliseconds
+16-May-2024 18:14:16.315 SEVERE [main] org.apache.catalina.core.StandardServer.await Failed to create server shutdown socket on address [localhost] and port [8005] (base port [8005] and offset [0])
+	java.net.BindException: Address already in use: bind
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:565)
+		at java.base/sun.nio.ch.Net.bind(Net.java:554)
+		at java.base/sun.nio.ch.NioSocketImpl.bind(NioSocketImpl.java:636)
+		at java.base/java.net.ServerSocket.bind(ServerSocket.java:390)
+		at java.base/java.net.ServerSocket.<init>(ServerSocket.java:277)
+		at org.apache.catalina.core.StandardServer.await(StandardServer.java:541)
+		at org.apache.catalina.startup.Catalina.await(Catalina.java:825)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:773)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:473)
+16-May-2024 18:14:16.315 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+16-May-2024 18:14:16.315 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+16-May-2024 18:14:16.326 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+16-May-2024 18:14:16.328 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+16-May-2024 18:15:16.829 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.89
+16-May-2024 18:15:16.833 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 3 2024 20:22:11 UTC
+16-May-2024 18:15:16.833 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.89.0
+16-May-2024 18:15:16.833 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+16-May-2024 18:15:16.833 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+16-May-2024 18:15:16.833 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+16-May-2024 18:15:16.833 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Users\Legion\.jdks\openjdk-22.0.1
+16-May-2024 18:15:16.833 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           22.0.1+8-16
+16-May-2024 18:15:16.833 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+16-May-2024 18:15:16.833 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\DevOps\week4\geocit\apache-tomcat-9.0.89
+16-May-2024 18:15:16.834 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\DevOps\week4\geocit\apache-tomcat-9.0.89
+16-May-2024 18:15:16.841 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+16-May-2024 18:15:16.841 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+16-May-2024 18:15:16.841 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+16-May-2024 18:15:16.841 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+16-May-2024 18:15:16.841 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+16-May-2024 18:15:16.841 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:/DevOps/week4/geocit/apache-tomcat-9.0.89/conf/logging.properties
+16-May-2024 18:15:16.841 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+16-May-2024 18:15:16.841 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+16-May-2024 18:15:16.841 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+16-May-2024 18:15:16.841 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+16-May-2024 18:15:16.841 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+16-May-2024 18:15:16.841 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:/DevOps/week4/geocit/apache-tomcat-9.0.89
+16-May-2024 18:15:16.841 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:/DevOps/week4/geocit/apache-tomcat-9.0.89
+16-May-2024 18:15:16.841 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:/DevOps/week4/geocit/apache-tomcat-9.0.89/temp
+16-May-2024 18:15:16.845 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.3.0] using APR version [1.7.4].
+16-May-2024 18:15:16.845 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+16-May-2024 18:15:16.845 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+16-May-2024 18:15:16.850 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+16-May-2024 18:15:17.096 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+16-May-2024 18:15:17.115 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [438] milliseconds
+16-May-2024 18:15:17.150 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+16-May-2024 18:15:17.151 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.89]
+16-May-2024 18:15:17.166 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [D:\DevOps\week4\geocit\apache-tomcat-9.0.89\webapps\citizen.war]
+16-May-2024 18:15:19.909 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-May-2024 18:15:26.658 SEVERE [main] org.apache.catalina.core.StandardContext.startInternal One or more listeners failed to start. Full details will be found in the appropriate container log file
+16-May-2024 18:15:26.663 SEVERE [main] org.apache.catalina.core.StandardContext.startInternal Context [/citizen] startup failed due to previous errors
+16-May-2024 18:15:26.700 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [citizen] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+16-May-2024 18:15:26.700 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [citizen] appears to have started a thread named [cluster-1-localhost:27017] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+ java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1758)
+ com.mongodb.ServerMonitor$ServerMonitorRunnable.waitForSignalOrTimeout(ServerMonitor.java:178)
+ com.mongodb.ServerMonitor$ServerMonitorRunnable.waitForNext(ServerMonitor.java:159)
+ com.mongodb.ServerMonitor$ServerMonitorRunnable.run(ServerMonitor.java:125)
+ java.base/java.lang.Thread.run(Thread.java:1570)
+16-May-2024 18:15:26.701 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [citizen] appears to have started a thread named [MongoCleaner44037039] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/java.lang.Thread.sleepNanos0(Native Method)
+ java.base/java.lang.Thread.sleepNanos(Thread.java:491)
+ java.base/java.lang.Thread.sleep(Thread.java:522)
+ com.mongodb.Mongo$CursorCleanerThread.run(Mongo.java:796)
+16-May-2024 18:15:26.708 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [D:\DevOps\week4\geocit\apache-tomcat-9.0.89\webapps\citizen.war] has finished in [9,542] ms
+16-May-2024 18:15:26.709 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\DevOps\week4\geocit\apache-tomcat-9.0.89\webapps\docs]
+16-May-2024 18:15:26.756 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\DevOps\week4\geocit\apache-tomcat-9.0.89\webapps\docs] has finished in [46] ms
+16-May-2024 18:15:26.756 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\DevOps\week4\geocit\apache-tomcat-9.0.89\webapps\examples]
+16-May-2024 18:15:26.957 SEVERE [main] org.apache.catalina.startup.HostConfig.deployDirectory Error deploying web application directory [D:\DevOps\week4\geocit\apache-tomcat-9.0.89\webapps\examples]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:602)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:571)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:603)
+		at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1175)
+		at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1888)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:123)
+		at org.apache.catalina.startup.HostConfig.deployDirectories(HostConfig.java:1086)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:470)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1584)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:312)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:114)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:402)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:345)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:776)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:721)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1203)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1193)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:749)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:211)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:415)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:878)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:735)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:473)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/examples]]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:419)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:186)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:599)
+		... 35 more
+	Caused by: java.lang.NoClassDefFoundError: websocket/drawboard/Room$Player
+		at java.base/java.lang.Class.getDeclaredMethods0(Native Method)
+		at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3601)
+		at java.base/java.lang.Class.getDeclaredMethods(Class.java:2686)
+		at org.apache.tomcat.websocket.pojo.PojoMethodMapping.<init>(PojoMethodMapping.java:112)
+		at org.apache.tomcat.websocket.server.WsServerContainer.addEndpoint(WsServerContainer.java:144)
+		at org.apache.tomcat.websocket.server.WsServerContainer.addEndpoint(WsServerContainer.java:120)
+		at org.apache.tomcat.websocket.server.WsSci.onStartup(WsSci.java:112)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4438)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		... 36 more
+	Caused by: java.lang.ClassNotFoundException: websocket.drawboard.Room$Player
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1308)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1120)
+		... 45 more
+16-May-2024 18:15:26.957 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\DevOps\week4\geocit\apache-tomcat-9.0.89\webapps\examples] has finished in [201] ms
+16-May-2024 18:15:26.957 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\DevOps\week4\geocit\apache-tomcat-9.0.89\webapps\host-manager]
+16-May-2024 18:15:26.986 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\DevOps\week4\geocit\apache-tomcat-9.0.89\webapps\host-manager] has finished in [29] ms
+16-May-2024 18:15:26.987 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\DevOps\week4\geocit\apache-tomcat-9.0.89\webapps\manager]
+16-May-2024 18:15:27.010 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\DevOps\week4\geocit\apache-tomcat-9.0.89\webapps\manager] has finished in [24] ms
+16-May-2024 18:15:27.010 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\DevOps\week4\geocit\apache-tomcat-9.0.89\webapps\ROOT]
+16-May-2024 18:15:27.029 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\DevOps\week4\geocit\apache-tomcat-9.0.89\webapps\ROOT] has finished in [19] ms
+16-May-2024 18:15:27.033 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+16-May-2024 18:15:27.052 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [9936] milliseconds
+16-May-2024 22:05:08.442 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.89
+16-May-2024 22:05:08.445 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 3 2024 20:22:11 UTC
+16-May-2024 22:05:08.445 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.89.0
+16-May-2024 22:05:08.445 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+16-May-2024 22:05:08.446 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+16-May-2024 22:05:08.446 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+16-May-2024 22:05:08.446 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Users\Legion\.jdks\openjdk-22.0.1
+16-May-2024 22:05:08.446 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           22.0.1+8-16
+16-May-2024 22:05:08.446 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+16-May-2024 22:05:08.446 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\DevOps\week4\geocit\apache-tomcat-9.0.89
+16-May-2024 22:05:08.446 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\DevOps\week4\geocit\apache-tomcat-9.0.89
+16-May-2024 22:05:08.453 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+16-May-2024 22:05:08.453 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+16-May-2024 22:05:08.454 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+16-May-2024 22:05:08.454 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+16-May-2024 22:05:08.454 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+16-May-2024 22:05:08.454 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:/DevOps/week4/geocit/apache-tomcat-9.0.89/conf/logging.properties
+16-May-2024 22:05:08.454 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+16-May-2024 22:05:08.454 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+16-May-2024 22:05:08.455 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+16-May-2024 22:05:08.455 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+16-May-2024 22:05:08.455 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+16-May-2024 22:05:08.455 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:/DevOps/week4/geocit/apache-tomcat-9.0.89
+16-May-2024 22:05:08.455 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:/DevOps/week4/geocit/apache-tomcat-9.0.89
+16-May-2024 22:05:08.455 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:/DevOps/week4/geocit/apache-tomcat-9.0.89/temp
+16-May-2024 22:05:08.460 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.3.0] using APR version [1.7.4].
+16-May-2024 22:05:08.460 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+16-May-2024 22:05:08.461 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+16-May-2024 22:05:08.476 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+16-May-2024 22:05:08.794 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+16-May-2024 22:05:08.815 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [602] milliseconds
+16-May-2024 22:05:08.867 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+16-May-2024 22:05:08.867 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.89]
+16-May-2024 22:05:08.889 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [D:\DevOps\week4\geocit\apache-tomcat-9.0.89\webapps\citizen.war]
+16-May-2024 22:05:15.651 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-May-2024 22:05:27.315 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [D:\DevOps\week4\geocit\apache-tomcat-9.0.89\webapps\citizen.war] has finished in [18,424] ms
+16-May-2024 22:05:27.316 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\DevOps\week4\geocit\apache-tomcat-9.0.89\webapps\docs]
+16-May-2024 22:05:27.363 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\DevOps\week4\geocit\apache-tomcat-9.0.89\webapps\docs] has finished in [46] ms
+16-May-2024 22:05:27.363 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\DevOps\week4\geocit\apache-tomcat-9.0.89\webapps\examples]
+16-May-2024 22:05:28.223 SEVERE [main] org.apache.catalina.startup.HostConfig.deployDirectory Error deploying web application directory [D:\DevOps\week4\geocit\apache-tomcat-9.0.89\webapps\examples]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:602)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:571)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:603)
+		at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1175)
+		at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1888)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:123)
+		at org.apache.catalina.startup.HostConfig.deployDirectories(HostConfig.java:1086)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:470)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1584)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:312)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:114)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:402)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:345)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:776)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:721)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1203)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1193)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:749)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:211)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:415)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:878)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:735)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:473)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/examples]]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:419)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:186)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:599)
+		... 35 more
+	Caused by: java.lang.NoClassDefFoundError: websocket/drawboard/Room$Player
+		at java.base/java.lang.Class.getDeclaredMethods0(Native Method)
+		at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3601)
+		at java.base/java.lang.Class.getDeclaredMethods(Class.java:2686)
+		at org.apache.tomcat.websocket.pojo.PojoMethodMapping.<init>(PojoMethodMapping.java:112)
+		at org.apache.tomcat.websocket.server.WsServerContainer.addEndpoint(WsServerContainer.java:144)
+		at org.apache.tomcat.websocket.server.WsServerContainer.addEndpoint(WsServerContainer.java:120)
+		at org.apache.tomcat.websocket.server.WsSci.onStartup(WsSci.java:112)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4438)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		... 36 more
+	Caused by: java.lang.ClassNotFoundException: websocket.drawboard.Room$Player
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1308)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1120)
+		... 45 more
+16-May-2024 22:05:28.326 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\DevOps\week4\geocit\apache-tomcat-9.0.89\webapps\examples] has finished in [963] ms
+16-May-2024 22:05:28.327 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\DevOps\week4\geocit\apache-tomcat-9.0.89\webapps\host-manager]
+16-May-2024 22:05:28.377 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\DevOps\week4\geocit\apache-tomcat-9.0.89\webapps\host-manager] has finished in [50] ms
+16-May-2024 22:05:28.377 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\DevOps\week4\geocit\apache-tomcat-9.0.89\webapps\manager]
+16-May-2024 22:05:28.430 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\DevOps\week4\geocit\apache-tomcat-9.0.89\webapps\manager] has finished in [52] ms
+16-May-2024 22:05:28.430 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\DevOps\week4\geocit\apache-tomcat-9.0.89\webapps\ROOT]
+16-May-2024 22:05:28.464 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\DevOps\week4\geocit\apache-tomcat-9.0.89\webapps\ROOT] has finished in [34] ms
+16-May-2024 22:05:28.470 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+16-May-2024 22:05:28.495 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [19678] milliseconds
+16-May-2024 22:16:23.112 INFO [Thread-2] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+16-May-2024 22:16:23.115 INFO [Thread-2] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+16-May-2024 22:16:23.165 WARNING [Thread-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [citizen] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+16-May-2024 22:16:23.166 WARNING [Thread-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [citizen] appears to have started a thread named [cluster-1-localhost:27017] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+ java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1758)
+ com.mongodb.ServerMonitor$ServerMonitorRunnable.waitForSignalOrTimeout(ServerMonitor.java:178)
+ com.mongodb.ServerMonitor$ServerMonitorRunnable.waitForNext(ServerMonitor.java:159)
+ com.mongodb.ServerMonitor$ServerMonitorRunnable.run(ServerMonitor.java:125)
+ java.base/java.lang.Thread.run(Thread.java:1570)
+16-May-2024 22:16:23.166 WARNING [Thread-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [citizen] appears to have started a thread named [MongoCleaner1671077889] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/java.lang.Thread.sleepNanos0(Native Method)
+ java.base/java.lang.Thread.sleepNanos(Thread.java:491)
+ java.base/java.lang.Thread.sleep(Thread.java:522)
+ com.mongodb.Mongo$CursorCleanerThread.run(Mongo.java:796)
+16-May-2024 22:16:23.176 INFO [Thread-2] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+16-May-2024 22:16:23.180 INFO [Thread-2] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+16-May-2024 22:16:31.810 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.89
+16-May-2024 22:16:31.812 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 3 2024 20:22:11 UTC
+16-May-2024 22:16:31.812 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.89.0
+16-May-2024 22:16:31.813 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+16-May-2024 22:16:31.813 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+16-May-2024 22:16:31.813 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+16-May-2024 22:16:31.813 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Users\Legion\.jdks\openjdk-22.0.1
+16-May-2024 22:16:31.813 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           22.0.1+8-16
+16-May-2024 22:16:31.813 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+16-May-2024 22:16:31.814 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\DevOps\week4\geocit\apache-tomcat-9.0.89
+16-May-2024 22:16:31.814 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\DevOps\week4\geocit\apache-tomcat-9.0.89
+16-May-2024 22:16:31.820 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+16-May-2024 22:16:31.821 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+16-May-2024 22:16:31.821 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+16-May-2024 22:16:31.821 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+16-May-2024 22:16:31.821 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+16-May-2024 22:16:31.821 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:/DevOps/week4/geocit/apache-tomcat-9.0.89/conf/logging.properties
+16-May-2024 22:16:31.821 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+16-May-2024 22:16:31.821 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+16-May-2024 22:16:31.821 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+16-May-2024 22:16:31.822 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+16-May-2024 22:16:31.822 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+16-May-2024 22:16:31.822 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:/DevOps/week4/geocit/apache-tomcat-9.0.89
+16-May-2024 22:16:31.822 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:/DevOps/week4/geocit/apache-tomcat-9.0.89
+16-May-2024 22:16:31.822 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:/DevOps/week4/geocit/apache-tomcat-9.0.89/temp
+16-May-2024 22:16:31.824 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.3.0] using APR version [1.7.4].
+16-May-2024 22:16:31.825 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+16-May-2024 22:16:31.825 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+16-May-2024 22:16:31.830 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+16-May-2024 22:16:32.072 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+16-May-2024 22:16:32.090 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [433] milliseconds
+16-May-2024 22:16:32.129 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+16-May-2024 22:16:32.130 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.89]
+16-May-2024 22:16:32.145 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [D:\DevOps\week4\geocit\apache-tomcat-9.0.89\webapps\citizen.war]
+16-May-2024 22:16:34.479 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-May-2024 22:16:43.814 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [D:\DevOps\week4\geocit\apache-tomcat-9.0.89\webapps\citizen.war] has finished in [11,668] ms
+16-May-2024 22:16:43.815 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\DevOps\week4\geocit\apache-tomcat-9.0.89\webapps\docs]
+16-May-2024 22:16:43.841 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\DevOps\week4\geocit\apache-tomcat-9.0.89\webapps\docs] has finished in [26] ms
+16-May-2024 22:16:43.841 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\DevOps\week4\geocit\apache-tomcat-9.0.89\webapps\examples]
+16-May-2024 22:16:44.000 SEVERE [main] org.apache.catalina.startup.HostConfig.deployDirectory Error deploying web application directory [D:\DevOps\week4\geocit\apache-tomcat-9.0.89\webapps\examples]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:602)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:571)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:603)
+		at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1175)
+		at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1888)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:123)
+		at org.apache.catalina.startup.HostConfig.deployDirectories(HostConfig.java:1086)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:470)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1584)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:312)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:114)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:402)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:345)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:776)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:721)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1203)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1193)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:749)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:211)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:415)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:878)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:735)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:473)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/examples]]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:419)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:186)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:599)
+		... 35 more
+	Caused by: java.lang.NoClassDefFoundError: websocket/drawboard/Room$Player
+		at java.base/java.lang.Class.getDeclaredMethods0(Native Method)
+		at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3601)
+		at java.base/java.lang.Class.getDeclaredMethods(Class.java:2686)
+		at org.apache.tomcat.websocket.pojo.PojoMethodMapping.<init>(PojoMethodMapping.java:112)
+		at org.apache.tomcat.websocket.server.WsServerContainer.addEndpoint(WsServerContainer.java:144)
+		at org.apache.tomcat.websocket.server.WsServerContainer.addEndpoint(WsServerContainer.java:120)
+		at org.apache.tomcat.websocket.server.WsSci.onStartup(WsSci.java:112)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4438)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		... 36 more
+	Caused by: java.lang.ClassNotFoundException: websocket.drawboard.Room$Player
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1308)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1120)
+		... 45 more
+16-May-2024 22:16:44.003 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\DevOps\week4\geocit\apache-tomcat-9.0.89\webapps\examples] has finished in [162] ms
+16-May-2024 22:16:44.081 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\DevOps\week4\geocit\apache-tomcat-9.0.89\webapps\host-manager]
+16-May-2024 22:16:44.108 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\DevOps\week4\geocit\apache-tomcat-9.0.89\webapps\host-manager] has finished in [27] ms
+16-May-2024 22:16:44.108 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\DevOps\week4\geocit\apache-tomcat-9.0.89\webapps\manager]
+16-May-2024 22:16:44.131 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\DevOps\week4\geocit\apache-tomcat-9.0.89\webapps\manager] has finished in [23] ms
+16-May-2024 22:16:44.131 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\DevOps\week4\geocit\apache-tomcat-9.0.89\webapps\ROOT]
+16-May-2024 22:16:44.145 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\DevOps\week4\geocit\apache-tomcat-9.0.89\webapps\ROOT] has finished in [14] ms
+16-May-2024 22:16:44.149 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+16-May-2024 22:16:44.162 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [12070] milliseconds
+16-May-2024 22:25:53.883 INFO [Thread-2] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+16-May-2024 22:25:53.886 INFO [Thread-2] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+16-May-2024 22:25:53.932 WARNING [Thread-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [citizen] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+16-May-2024 22:25:53.933 WARNING [Thread-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [citizen] appears to have started a thread named [cluster-1-localhost:27017] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+ java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1758)
+ com.mongodb.ServerMonitor$ServerMonitorRunnable.waitForSignalOrTimeout(ServerMonitor.java:178)
+ com.mongodb.ServerMonitor$ServerMonitorRunnable.waitForNext(ServerMonitor.java:159)
+ com.mongodb.ServerMonitor$ServerMonitorRunnable.run(ServerMonitor.java:125)
+ java.base/java.lang.Thread.run(Thread.java:1570)
+16-May-2024 22:25:53.933 WARNING [Thread-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [citizen] appears to have started a thread named [MongoCleaner2039937002] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/java.lang.Thread.sleepNanos0(Native Method)
+ java.base/java.lang.Thread.sleepNanos(Thread.java:491)
+ java.base/java.lang.Thread.sleep(Thread.java:522)
+ com.mongodb.Mongo$CursorCleanerThread.run(Mongo.java:796)
+16-May-2024 22:25:53.942 INFO [Thread-2] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+16-May-2024 22:25:53.953 INFO [Thread-2] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+16-May-2024 22:26:37.857 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.89
+16-May-2024 22:26:37.861 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 3 2024 20:22:11 UTC
+16-May-2024 22:26:37.862 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.89.0
+16-May-2024 22:26:37.862 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+16-May-2024 22:26:37.862 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+16-May-2024 22:26:37.862 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+16-May-2024 22:26:37.862 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Users\Legion\.jdks\openjdk-22.0.1
+16-May-2024 22:26:37.864 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           22.0.1+8-16
+16-May-2024 22:26:37.864 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+16-May-2024 22:26:37.864 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\DevOps\week4\geocit\apache-tomcat-9.0.89
+16-May-2024 22:26:37.864 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\DevOps\week4\geocit\apache-tomcat-9.0.89
+16-May-2024 22:26:37.872 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+16-May-2024 22:26:37.872 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+16-May-2024 22:26:37.872 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+16-May-2024 22:26:37.872 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+16-May-2024 22:26:37.873 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+16-May-2024 22:26:37.873 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:/DevOps/week4/geocit/apache-tomcat-9.0.89/conf/logging.properties
+16-May-2024 22:26:37.873 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+16-May-2024 22:26:37.873 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+16-May-2024 22:26:37.874 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+16-May-2024 22:26:37.874 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+16-May-2024 22:26:37.874 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+16-May-2024 22:26:37.874 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:/DevOps/week4/geocit/apache-tomcat-9.0.89
+16-May-2024 22:26:37.874 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:/DevOps/week4/geocit/apache-tomcat-9.0.89
+16-May-2024 22:26:37.874 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:/DevOps/week4/geocit/apache-tomcat-9.0.89/temp
+16-May-2024 22:26:37.876 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.3.0] using APR version [1.7.4].
+16-May-2024 22:26:37.877 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+16-May-2024 22:26:37.877 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+16-May-2024 22:26:37.883 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+16-May-2024 22:26:38.154 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+16-May-2024 22:26:38.175 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [474] milliseconds
+16-May-2024 22:26:38.217 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+16-May-2024 22:26:38.218 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.89]
+16-May-2024 22:26:38.231 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [D:\DevOps\week4\geocit\apache-tomcat-9.0.89\webapps\citizen.war]
+16-May-2024 22:26:40.923 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-May-2024 22:26:51.550 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [D:\DevOps\week4\geocit\apache-tomcat-9.0.89\webapps\citizen.war] has finished in [13,318] ms
+16-May-2024 22:26:51.551 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\DevOps\week4\geocit\apache-tomcat-9.0.89\webapps\docs]
+16-May-2024 22:26:51.582 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\DevOps\week4\geocit\apache-tomcat-9.0.89\webapps\docs] has finished in [31] ms
+16-May-2024 22:26:51.583 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\DevOps\week4\geocit\apache-tomcat-9.0.89\webapps\examples]
+16-May-2024 22:26:51.764 SEVERE [main] org.apache.catalina.startup.HostConfig.deployDirectory Error deploying web application directory [D:\DevOps\week4\geocit\apache-tomcat-9.0.89\webapps\examples]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:602)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:571)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:603)
+		at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1175)
+		at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1888)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:123)
+		at org.apache.catalina.startup.HostConfig.deployDirectories(HostConfig.java:1086)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:470)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1584)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:312)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:114)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:402)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:345)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:776)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:721)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1203)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1193)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:749)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:211)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:415)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:878)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:735)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:473)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/examples]]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:419)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:186)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:599)
+		... 35 more
+	Caused by: java.lang.NoClassDefFoundError: websocket/drawboard/Room$Player
+		at java.base/java.lang.Class.getDeclaredMethods0(Native Method)
+		at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3601)
+		at java.base/java.lang.Class.getDeclaredMethods(Class.java:2686)
+		at org.apache.tomcat.websocket.pojo.PojoMethodMapping.<init>(PojoMethodMapping.java:112)
+		at org.apache.tomcat.websocket.server.WsServerContainer.addEndpoint(WsServerContainer.java:144)
+		at org.apache.tomcat.websocket.server.WsServerContainer.addEndpoint(WsServerContainer.java:120)
+		at org.apache.tomcat.websocket.server.WsSci.onStartup(WsSci.java:112)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4438)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		... 36 more
+	Caused by: java.lang.ClassNotFoundException: websocket.drawboard.Room$Player
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1308)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1120)
+		... 45 more
+16-May-2024 22:26:51.768 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\DevOps\week4\geocit\apache-tomcat-9.0.89\webapps\examples] has finished in [183] ms
+16-May-2024 22:26:51.846 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\DevOps\week4\geocit\apache-tomcat-9.0.89\webapps\host-manager]
+16-May-2024 22:26:51.879 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\DevOps\week4\geocit\apache-tomcat-9.0.89\webapps\host-manager] has finished in [33] ms
+16-May-2024 22:26:51.880 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\DevOps\week4\geocit\apache-tomcat-9.0.89\webapps\manager]
+16-May-2024 22:26:51.905 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\DevOps\week4\geocit\apache-tomcat-9.0.89\webapps\manager] has finished in [25] ms
+16-May-2024 22:26:51.906 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\DevOps\week4\geocit\apache-tomcat-9.0.89\webapps\ROOT]
+16-May-2024 22:26:51.923 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\DevOps\week4\geocit\apache-tomcat-9.0.89\webapps\ROOT] has finished in [16] ms
+16-May-2024 22:26:51.927 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+16-May-2024 22:26:51.944 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [13767] milliseconds
+16-May-2024 22:33:40.800 INFO [Thread-2] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+16-May-2024 22:33:40.804 INFO [Thread-2] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+16-May-2024 22:33:40.854 WARNING [Thread-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [citizen] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+16-May-2024 22:33:40.854 WARNING [Thread-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [citizen] appears to have started a thread named [cluster-1-localhost:27017] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+ java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1758)
+ com.mongodb.ServerMonitor$ServerMonitorRunnable.waitForSignalOrTimeout(ServerMonitor.java:178)
+ com.mongodb.ServerMonitor$ServerMonitorRunnable.waitForNext(ServerMonitor.java:159)
+ com.mongodb.ServerMonitor$ServerMonitorRunnable.run(ServerMonitor.java:125)
+ java.base/java.lang.Thread.run(Thread.java:1570)
+16-May-2024 22:33:40.854 WARNING [Thread-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [citizen] appears to have started a thread named [MongoCleaner2018082190] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/java.lang.Thread.sleepNanos0(Native Method)
+ java.base/java.lang.Thread.sleepNanos(Thread.java:491)
+ java.base/java.lang.Thread.sleep(Thread.java:522)
+ com.mongodb.Mongo$CursorCleanerThread.run(Mongo.java:796)
+16-May-2024 22:33:40.862 INFO [Thread-2] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+16-May-2024 22:33:40.879 INFO [Thread-2] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+16-May-2024 22:34:10.831 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.89
+16-May-2024 22:34:10.834 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 3 2024 20:22:11 UTC
+16-May-2024 22:34:10.834 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.89.0
+16-May-2024 22:34:10.834 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+16-May-2024 22:34:10.834 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+16-May-2024 22:34:10.834 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+16-May-2024 22:34:10.834 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Users\Legion\.jdks\openjdk-22.0.1
+16-May-2024 22:34:10.834 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           22.0.1+8-16
+16-May-2024 22:34:10.834 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+16-May-2024 22:34:10.835 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\DevOps\week4\geocit\apache-tomcat-9.0.89
+16-May-2024 22:34:10.835 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\DevOps\week4\geocit\apache-tomcat-9.0.89
+16-May-2024 22:34:10.842 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+16-May-2024 22:34:10.842 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+16-May-2024 22:34:10.842 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+16-May-2024 22:34:10.842 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+16-May-2024 22:34:10.842 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+16-May-2024 22:34:10.842 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:/DevOps/week4/geocit/apache-tomcat-9.0.89/conf/logging.properties
+16-May-2024 22:34:10.843 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+16-May-2024 22:34:10.843 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+16-May-2024 22:34:10.843 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+16-May-2024 22:34:10.843 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+16-May-2024 22:34:10.843 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+16-May-2024 22:34:10.843 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:/DevOps/week4/geocit/apache-tomcat-9.0.89
+16-May-2024 22:34:10.843 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:/DevOps/week4/geocit/apache-tomcat-9.0.89
+16-May-2024 22:34:10.843 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:/DevOps/week4/geocit/apache-tomcat-9.0.89/temp
+16-May-2024 22:34:10.846 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.3.0] using APR version [1.7.4].
+16-May-2024 22:34:10.846 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+16-May-2024 22:34:10.846 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+16-May-2024 22:34:10.852 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+16-May-2024 22:34:11.096 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+16-May-2024 22:34:11.114 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [441] milliseconds
+16-May-2024 22:34:11.149 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+16-May-2024 22:34:11.150 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.89]
+16-May-2024 22:34:11.163 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [D:\DevOps\week4\geocit\apache-tomcat-9.0.89\webapps\citizen.war]
+16-May-2024 22:34:13.569 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-May-2024 22:34:22.986 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [D:\DevOps\week4\geocit\apache-tomcat-9.0.89\webapps\citizen.war] has finished in [11,822] ms
+16-May-2024 22:34:22.988 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\DevOps\week4\geocit\apache-tomcat-9.0.89\webapps\docs]
+16-May-2024 22:34:23.014 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\DevOps\week4\geocit\apache-tomcat-9.0.89\webapps\docs] has finished in [26] ms
+16-May-2024 22:34:23.015 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\DevOps\week4\geocit\apache-tomcat-9.0.89\webapps\examples]
+16-May-2024 22:34:23.185 SEVERE [main] org.apache.catalina.startup.HostConfig.deployDirectory Error deploying web application directory [D:\DevOps\week4\geocit\apache-tomcat-9.0.89\webapps\examples]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:602)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:571)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:603)
+		at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1175)
+		at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1888)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:123)
+		at org.apache.catalina.startup.HostConfig.deployDirectories(HostConfig.java:1086)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:470)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1584)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:312)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:114)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:402)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:345)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:776)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:721)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1203)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1193)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:749)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:211)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:415)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:878)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:735)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:473)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/examples]]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:419)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:186)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:599)
+		... 35 more
+	Caused by: java.lang.NoClassDefFoundError: websocket/drawboard/Room$Player
+		at java.base/java.lang.Class.getDeclaredMethods0(Native Method)
+		at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3601)
+		at java.base/java.lang.Class.getDeclaredMethods(Class.java:2686)
+		at org.apache.tomcat.websocket.pojo.PojoMethodMapping.<init>(PojoMethodMapping.java:112)
+		at org.apache.tomcat.websocket.server.WsServerContainer.addEndpoint(WsServerContainer.java:144)
+		at org.apache.tomcat.websocket.server.WsServerContainer.addEndpoint(WsServerContainer.java:120)
+		at org.apache.tomcat.websocket.server.WsSci.onStartup(WsSci.java:112)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4438)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		... 36 more
+	Caused by: java.lang.ClassNotFoundException: websocket.drawboard.Room$Player
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1308)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1120)
+		... 45 more
+16-May-2024 22:34:23.186 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\DevOps\week4\geocit\apache-tomcat-9.0.89\webapps\examples] has finished in [171] ms
+16-May-2024 22:34:23.186 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\DevOps\week4\geocit\apache-tomcat-9.0.89\webapps\host-manager]
+16-May-2024 22:34:23.214 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\DevOps\week4\geocit\apache-tomcat-9.0.89\webapps\host-manager] has finished in [28] ms
+16-May-2024 22:34:23.214 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\DevOps\week4\geocit\apache-tomcat-9.0.89\webapps\manager]
+16-May-2024 22:34:23.235 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\DevOps\week4\geocit\apache-tomcat-9.0.89\webapps\manager] has finished in [20] ms
+16-May-2024 22:34:23.235 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\DevOps\week4\geocit\apache-tomcat-9.0.89\webapps\ROOT]
+16-May-2024 22:34:23.253 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\DevOps\week4\geocit\apache-tomcat-9.0.89\webapps\ROOT] has finished in [18] ms
+16-May-2024 22:34:23.256 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+16-May-2024 22:34:23.270 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [12155] milliseconds
+16-May-2024 22:35:49.649 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.89
+16-May-2024 22:35:49.653 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 3 2024 20:22:11 UTC
+16-May-2024 22:35:49.653 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.89.0
+16-May-2024 22:35:49.654 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+16-May-2024 22:35:49.654 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+16-May-2024 22:35:49.654 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+16-May-2024 22:35:49.654 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Users\Legion\.jdks\openjdk-22.0.1
+16-May-2024 22:35:49.654 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           22.0.1+8-16
+16-May-2024 22:35:49.654 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+16-May-2024 22:35:49.654 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\DevOps\week4\geocit\apache-tomcat-9.0.89
+16-May-2024 22:35:49.654 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\DevOps\week4\geocit\apache-tomcat-9.0.89
+16-May-2024 22:35:49.663 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+16-May-2024 22:35:49.663 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+16-May-2024 22:35:49.663 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+16-May-2024 22:35:49.663 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+16-May-2024 22:35:49.663 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+16-May-2024 22:35:49.663 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:/DevOps/week4/geocit/apache-tomcat-9.0.89/conf/logging.properties
+16-May-2024 22:35:49.664 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+16-May-2024 22:35:49.664 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+16-May-2024 22:35:49.664 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+16-May-2024 22:35:49.664 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+16-May-2024 22:35:49.664 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+16-May-2024 22:35:49.664 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:/DevOps/week4/geocit/apache-tomcat-9.0.89
+16-May-2024 22:35:49.664 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:/DevOps/week4/geocit/apache-tomcat-9.0.89
+16-May-2024 22:35:49.664 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:/DevOps/week4/geocit/apache-tomcat-9.0.89/temp
+16-May-2024 22:35:49.668 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.3.0] using APR version [1.7.4].
+16-May-2024 22:35:49.668 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+16-May-2024 22:35:49.668 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+16-May-2024 22:35:49.673 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+16-May-2024 22:35:49.941 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+16-May-2024 22:35:49.955 SEVERE [main] org.apache.catalina.util.LifecycleBase.handleSubClassException Failed to initialize component [Connector["http-nio-8080"]]
+	org.apache.catalina.LifecycleException: Protocol handler initialization failed
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1012)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:127)
+		at org.apache.catalina.core.StandardService.initInternal(StandardService.java:525)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:127)
+		at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:990)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:127)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:686)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:709)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:302)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:472)
+	Caused by: java.net.BindException: Address already in use: bind
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:565)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:344)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:301)
+		at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:268)
+		at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:223)
+		at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1355)
+		at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1368)
+		at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:654)
+		at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:75)
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1010)
+		... 11 more
+16-May-2024 22:35:49.956 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [465] milliseconds
+16-May-2024 22:35:50.003 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+16-May-2024 22:35:50.003 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.89]
+16-May-2024 22:35:50.021 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [D:\DevOps\week4\geocit\apache-tomcat-9.0.89\webapps\citizen.war]
+16-May-2024 22:35:52.562 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-May-2024 22:36:02.710 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [D:\DevOps\week4\geocit\apache-tomcat-9.0.89\webapps\citizen.war] has finished in [12,687] ms
+16-May-2024 22:36:02.711 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\DevOps\week4\geocit\apache-tomcat-9.0.89\webapps\docs]
+16-May-2024 22:36:02.737 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\DevOps\week4\geocit\apache-tomcat-9.0.89\webapps\docs] has finished in [25] ms
+16-May-2024 22:36:02.737 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\DevOps\week4\geocit\apache-tomcat-9.0.89\webapps\examples]
+16-May-2024 22:36:02.896 SEVERE [main] org.apache.catalina.startup.HostConfig.deployDirectory Error deploying web application directory [D:\DevOps\week4\geocit\apache-tomcat-9.0.89\webapps\examples]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:602)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:571)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:603)
+		at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1175)
+		at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1888)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:123)
+		at org.apache.catalina.startup.HostConfig.deployDirectories(HostConfig.java:1086)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:470)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1584)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:312)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:114)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:402)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:345)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:776)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:721)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1203)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1193)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:749)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:211)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:415)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:878)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:735)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:473)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/examples]]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:419)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:186)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:599)
+		... 35 more
+	Caused by: java.lang.NoClassDefFoundError: websocket/drawboard/Room$Player
+		at java.base/java.lang.Class.getDeclaredMethods0(Native Method)
+		at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3601)
+		at java.base/java.lang.Class.getDeclaredMethods(Class.java:2686)
+		at org.apache.tomcat.websocket.pojo.PojoMethodMapping.<init>(PojoMethodMapping.java:112)
+		at org.apache.tomcat.websocket.server.WsServerContainer.addEndpoint(WsServerContainer.java:144)
+		at org.apache.tomcat.websocket.server.WsServerContainer.addEndpoint(WsServerContainer.java:120)
+		at org.apache.tomcat.websocket.server.WsSci.onStartup(WsSci.java:112)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4438)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		... 36 more
+	Caused by: java.lang.ClassNotFoundException: websocket.drawboard.Room$Player
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1308)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1120)
+		... 45 more
+16-May-2024 22:36:02.898 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\DevOps\week4\geocit\apache-tomcat-9.0.89\webapps\examples] has finished in [161] ms
+16-May-2024 22:36:02.898 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\DevOps\week4\geocit\apache-tomcat-9.0.89\webapps\host-manager]
+16-May-2024 22:36:02.943 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\DevOps\week4\geocit\apache-tomcat-9.0.89\webapps\host-manager] has finished in [44] ms
+16-May-2024 22:36:02.943 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\DevOps\week4\geocit\apache-tomcat-9.0.89\webapps\manager]
+16-May-2024 22:36:02.966 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\DevOps\week4\geocit\apache-tomcat-9.0.89\webapps\manager] has finished in [22] ms
+16-May-2024 22:36:02.967 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\DevOps\week4\geocit\apache-tomcat-9.0.89\webapps\ROOT]
+16-May-2024 22:36:02.982 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\DevOps\week4\geocit\apache-tomcat-9.0.89\webapps\ROOT] has finished in [15] ms
+16-May-2024 22:36:02.986 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [13029] milliseconds
+16-May-2024 22:36:02.987 SEVERE [main] org.apache.catalina.core.StandardServer.await Failed to create server shutdown socket on address [localhost] and port [8005] (base port [8005] and offset [0])
+	java.net.BindException: Address already in use: bind
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:565)
+		at java.base/sun.nio.ch.Net.bind(Net.java:554)
+		at java.base/sun.nio.ch.NioSocketImpl.bind(NioSocketImpl.java:636)
+		at java.base/java.net.ServerSocket.bind(ServerSocket.java:390)
+		at java.base/java.net.ServerSocket.<init>(ServerSocket.java:277)
+		at org.apache.catalina.core.StandardServer.await(StandardServer.java:541)
+		at org.apache.catalina.startup.Catalina.await(Catalina.java:825)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:773)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:473)
+16-May-2024 22:36:02.988 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+16-May-2024 22:36:02.988 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+16-May-2024 22:36:03.057 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [citizen] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+16-May-2024 22:36:03.057 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [citizen] appears to have started a thread named [cluster-1-localhost:27017] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+ java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1758)
+ com.mongodb.ServerMonitor$ServerMonitorRunnable.waitForSignalOrTimeout(ServerMonitor.java:178)
+ com.mongodb.ServerMonitor$ServerMonitorRunnable.waitForNext(ServerMonitor.java:159)
+ com.mongodb.ServerMonitor$ServerMonitorRunnable.run(ServerMonitor.java:125)
+ java.base/java.lang.Thread.run(Thread.java:1570)
+16-May-2024 22:36:03.059 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [citizen] appears to have started a thread named [MongoCleaner1763754596] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/java.lang.Thread.sleepNanos0(Native Method)
+ java.base/java.lang.Thread.sleepNanos(Thread.java:491)
+ java.base/java.lang.Thread.sleep(Thread.java:522)
+ com.mongodb.Mongo$CursorCleanerThread.run(Mongo.java:796)
+16-May-2024 22:36:03.066 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+16-May-2024 22:36:03.070 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+16-May-2024 22:43:13.742 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.89
+16-May-2024 22:43:13.745 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 3 2024 20:22:11 UTC
+16-May-2024 22:43:13.745 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.89.0
+16-May-2024 22:43:13.746 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+16-May-2024 22:43:13.746 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+16-May-2024 22:43:13.746 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+16-May-2024 22:43:13.746 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Users\Legion\.jdks\openjdk-22.0.1
+16-May-2024 22:43:13.746 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           22.0.1+8-16
+16-May-2024 22:43:13.746 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+16-May-2024 22:43:13.746 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\DevOps\week4\geocit\apache-tomcat-9.0.89
+16-May-2024 22:43:13.747 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\DevOps\week4\geocit\apache-tomcat-9.0.89
+16-May-2024 22:43:13.755 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+16-May-2024 22:43:13.755 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+16-May-2024 22:43:13.755 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+16-May-2024 22:43:13.755 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+16-May-2024 22:43:13.755 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+16-May-2024 22:43:13.755 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:/DevOps/week4/geocit/apache-tomcat-9.0.89/conf/logging.properties
+16-May-2024 22:43:13.756 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+16-May-2024 22:43:13.756 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+16-May-2024 22:43:13.756 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+16-May-2024 22:43:13.757 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+16-May-2024 22:43:13.757 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+16-May-2024 22:43:13.757 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:/DevOps/week4/geocit/apache-tomcat-9.0.89
+16-May-2024 22:43:13.757 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:/DevOps/week4/geocit/apache-tomcat-9.0.89
+16-May-2024 22:43:13.757 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:/DevOps/week4/geocit/apache-tomcat-9.0.89/temp
+16-May-2024 22:43:13.760 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.3.0] using APR version [1.7.4].
+16-May-2024 22:43:13.760 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+16-May-2024 22:43:13.761 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+16-May-2024 22:43:13.766 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+16-May-2024 22:43:14.022 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+16-May-2024 22:43:14.040 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [458] milliseconds
+16-May-2024 22:43:14.077 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+16-May-2024 22:43:14.077 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.89]
+16-May-2024 22:43:14.091 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [D:\DevOps\week4\geocit\apache-tomcat-9.0.89\webapps\citizen.war]
+16-May-2024 22:43:16.473 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-May-2024 22:43:27.394 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [D:\DevOps\week4\geocit\apache-tomcat-9.0.89\webapps\citizen.war] has finished in [13,302] ms
+16-May-2024 22:43:27.395 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\DevOps\week4\geocit\apache-tomcat-9.0.89\webapps\docs]
+16-May-2024 22:43:27.424 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\DevOps\week4\geocit\apache-tomcat-9.0.89\webapps\docs] has finished in [30] ms
+16-May-2024 22:43:27.425 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\DevOps\week4\geocit\apache-tomcat-9.0.89\webapps\examples]
+16-May-2024 22:43:27.599 SEVERE [main] org.apache.catalina.startup.HostConfig.deployDirectory Error deploying web application directory [D:\DevOps\week4\geocit\apache-tomcat-9.0.89\webapps\examples]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:602)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:571)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:603)
+		at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1175)
+		at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1888)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:123)
+		at org.apache.catalina.startup.HostConfig.deployDirectories(HostConfig.java:1086)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:470)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1584)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:312)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:114)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:402)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:345)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:776)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:721)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1203)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1193)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:749)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:211)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:415)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:878)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:735)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:473)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/examples]]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:419)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:186)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:599)
+		... 35 more
+	Caused by: java.lang.NoClassDefFoundError: websocket/drawboard/Room$Player
+		at java.base/java.lang.Class.getDeclaredMethods0(Native Method)
+		at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3601)
+		at java.base/java.lang.Class.getDeclaredMethods(Class.java:2686)
+		at org.apache.tomcat.websocket.pojo.PojoMethodMapping.<init>(PojoMethodMapping.java:112)
+		at org.apache.tomcat.websocket.server.WsServerContainer.addEndpoint(WsServerContainer.java:144)
+		at org.apache.tomcat.websocket.server.WsServerContainer.addEndpoint(WsServerContainer.java:120)
+		at org.apache.tomcat.websocket.server.WsSci.onStartup(WsSci.java:112)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4438)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		... 36 more
+	Caused by: java.lang.ClassNotFoundException: websocket.drawboard.Room$Player
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1308)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1120)
+		... 45 more
+16-May-2024 22:43:27.601 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\DevOps\week4\geocit\apache-tomcat-9.0.89\webapps\examples] has finished in [176] ms
+16-May-2024 22:43:27.734 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\DevOps\week4\geocit\apache-tomcat-9.0.89\webapps\host-manager]
+16-May-2024 22:43:27.765 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\DevOps\week4\geocit\apache-tomcat-9.0.89\webapps\host-manager] has finished in [33] ms
+16-May-2024 22:43:27.766 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\DevOps\week4\geocit\apache-tomcat-9.0.89\webapps\manager]
+16-May-2024 22:43:27.793 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\DevOps\week4\geocit\apache-tomcat-9.0.89\webapps\manager] has finished in [27] ms
+16-May-2024 22:43:27.793 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\DevOps\week4\geocit\apache-tomcat-9.0.89\webapps\ROOT]
+16-May-2024 22:43:27.810 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\DevOps\week4\geocit\apache-tomcat-9.0.89\webapps\ROOT] has finished in [17] ms
+16-May-2024 22:43:27.813 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+16-May-2024 22:43:27.830 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [13787] milliseconds
+16-May-2024 22:49:37.420 INFO [Thread-2] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+16-May-2024 22:49:37.424 INFO [Thread-2] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+16-May-2024 22:49:37.474 WARNING [Thread-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [citizen] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+16-May-2024 22:49:37.475 WARNING [Thread-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [citizen] appears to have started a thread named [cluster-1-localhost:27017] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+ java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1758)
+ com.mongodb.ServerMonitor$ServerMonitorRunnable.waitForSignalOrTimeout(ServerMonitor.java:178)
+ com.mongodb.ServerMonitor$ServerMonitorRunnable.waitForNext(ServerMonitor.java:159)
+ com.mongodb.ServerMonitor$ServerMonitorRunnable.run(ServerMonitor.java:125)
+ java.base/java.lang.Thread.run(Thread.java:1570)
+16-May-2024 22:49:37.475 WARNING [Thread-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [citizen] appears to have started a thread named [MongoCleaner1137729473] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/java.lang.Thread.sleepNanos0(Native Method)
+ java.base/java.lang.Thread.sleepNanos(Thread.java:491)
+ java.base/java.lang.Thread.sleep(Thread.java:522)
+ com.mongodb.Mongo$CursorCleanerThread.run(Mongo.java:796)
+16-May-2024 22:49:37.484 INFO [Thread-2] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+16-May-2024 22:49:37.495 INFO [Thread-2] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+16-May-2024 22:53:23.593 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.89
+16-May-2024 22:53:23.597 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 3 2024 20:22:11 UTC
+16-May-2024 22:53:23.597 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.89.0
+16-May-2024 22:53:23.597 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+16-May-2024 22:53:23.597 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+16-May-2024 22:53:23.598 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+16-May-2024 22:53:23.598 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Users\Legion\.jdks\openjdk-22.0.1
+16-May-2024 22:53:23.598 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           22.0.1+8-16
+16-May-2024 22:53:23.598 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+16-May-2024 22:53:23.599 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\DevOps\week4\geocit\apache-tomcat-9.0.89
+16-May-2024 22:53:23.599 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\DevOps\week4\geocit\apache-tomcat-9.0.89
+16-May-2024 22:53:23.607 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+16-May-2024 22:53:23.607 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+16-May-2024 22:53:23.607 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+16-May-2024 22:53:23.608 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+16-May-2024 22:53:23.608 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+16-May-2024 22:53:23.608 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:/DevOps/week4/geocit/apache-tomcat-9.0.89/conf/logging.properties
+16-May-2024 22:53:23.608 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+16-May-2024 22:53:23.608 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+16-May-2024 22:53:23.608 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+16-May-2024 22:53:23.610 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+16-May-2024 22:53:23.610 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+16-May-2024 22:53:23.610 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:/DevOps/week4/geocit/apache-tomcat-9.0.89
+16-May-2024 22:53:23.610 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:/DevOps/week4/geocit/apache-tomcat-9.0.89
+16-May-2024 22:53:23.610 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:/DevOps/week4/geocit/apache-tomcat-9.0.89/temp
+16-May-2024 22:53:23.614 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.3.0] using APR version [1.7.4].
+16-May-2024 22:53:23.615 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+16-May-2024 22:53:23.615 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+16-May-2024 22:53:23.620 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+16-May-2024 22:53:23.921 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+16-May-2024 22:53:23.940 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [560] milliseconds
+16-May-2024 22:53:23.977 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+16-May-2024 22:53:23.977 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.89]
+16-May-2024 22:53:23.992 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [D:\DevOps\week4\geocit\apache-tomcat-9.0.89\webapps\citizen.war]
+16-May-2024 22:53:26.427 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-May-2024 22:53:37.454 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [D:\DevOps\week4\geocit\apache-tomcat-9.0.89\webapps\citizen.war] has finished in [13,460] ms
+16-May-2024 22:53:37.455 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\DevOps\week4\geocit\apache-tomcat-9.0.89\webapps\docs]
+16-May-2024 22:53:37.498 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\DevOps\week4\geocit\apache-tomcat-9.0.89\webapps\docs] has finished in [42] ms
+16-May-2024 22:53:37.498 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\DevOps\week4\geocit\apache-tomcat-9.0.89\webapps\examples]
+16-May-2024 22:53:37.700 SEVERE [main] org.apache.catalina.startup.HostConfig.deployDirectory Error deploying web application directory [D:\DevOps\week4\geocit\apache-tomcat-9.0.89\webapps\examples]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:602)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:571)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:603)
+		at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1175)
+		at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1888)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:123)
+		at org.apache.catalina.startup.HostConfig.deployDirectories(HostConfig.java:1086)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:470)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1584)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:312)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:114)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:402)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:345)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:776)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:721)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1203)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1193)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:749)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:211)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:415)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:878)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:735)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:473)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/examples]]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:419)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:186)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:599)
+		... 35 more
+	Caused by: java.lang.NoClassDefFoundError: websocket/drawboard/Room$Player
+		at java.base/java.lang.Class.getDeclaredMethods0(Native Method)
+		at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3601)
+		at java.base/java.lang.Class.getDeclaredMethods(Class.java:2686)
+		at org.apache.tomcat.websocket.pojo.PojoMethodMapping.<init>(PojoMethodMapping.java:112)
+		at org.apache.tomcat.websocket.server.WsServerContainer.addEndpoint(WsServerContainer.java:144)
+		at org.apache.tomcat.websocket.server.WsServerContainer.addEndpoint(WsServerContainer.java:120)
+		at org.apache.tomcat.websocket.server.WsSci.onStartup(WsSci.java:112)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4438)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		... 36 more
+	Caused by: java.lang.ClassNotFoundException: websocket.drawboard.Room$Player
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1308)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1120)
+		... 45 more
+16-May-2024 22:53:37.703 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\DevOps\week4\geocit\apache-tomcat-9.0.89\webapps\examples] has finished in [204] ms
+16-May-2024 22:53:37.732 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\DevOps\week4\geocit\apache-tomcat-9.0.89\webapps\host-manager]
+16-May-2024 22:53:37.766 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\DevOps\week4\geocit\apache-tomcat-9.0.89\webapps\host-manager] has finished in [34] ms
+16-May-2024 22:53:37.766 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\DevOps\week4\geocit\apache-tomcat-9.0.89\webapps\manager]
+16-May-2024 22:53:37.792 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\DevOps\week4\geocit\apache-tomcat-9.0.89\webapps\manager] has finished in [26] ms
+16-May-2024 22:53:37.793 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\DevOps\week4\geocit\apache-tomcat-9.0.89\webapps\ROOT]
+16-May-2024 22:53:37.810 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\DevOps\week4\geocit\apache-tomcat-9.0.89\webapps\ROOT] has finished in [17] ms
+16-May-2024 22:53:37.815 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+16-May-2024 22:53:37.833 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [13891] milliseconds
+16-May-2024 23:19:57.166 INFO [Thread-2] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+16-May-2024 23:19:57.169 INFO [Thread-2] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+16-May-2024 23:19:59.659 WARNING [Thread-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [citizen] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+16-May-2024 23:19:59.660 WARNING [Thread-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [citizen] appears to have started a thread named [cluster-1-localhost:27017] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+ java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1758)
+ com.mongodb.ServerMonitor$ServerMonitorRunnable.waitForSignalOrTimeout(ServerMonitor.java:178)
+ com.mongodb.ServerMonitor$ServerMonitorRunnable.waitForNext(ServerMonitor.java:159)
+ com.mongodb.ServerMonitor$ServerMonitorRunnable.run(ServerMonitor.java:125)
+ java.base/java.lang.Thread.run(Thread.java:1570)
+16-May-2024 23:19:59.660 WARNING [Thread-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [citizen] appears to have started a thread named [MongoCleaner2039937002] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/java.lang.Thread.sleepNanos0(Native Method)
+ java.base/java.lang.Thread.sleepNanos(Thread.java:491)
+ java.base/java.lang.Thread.sleep(Thread.java:522)
+ com.mongodb.Mongo$CursorCleanerThread.run(Mongo.java:796)
+16-May-2024 23:19:59.668 INFO [Thread-2] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+16-May-2024 23:19:59.679 INFO [Thread-2] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+16-May-2024 23:20:03.891 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.89
+16-May-2024 23:20:03.895 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 3 2024 20:22:11 UTC
+16-May-2024 23:20:03.896 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.89.0
+16-May-2024 23:20:03.896 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+16-May-2024 23:20:03.896 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+16-May-2024 23:20:03.896 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+16-May-2024 23:20:03.896 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Users\Legion\.jdks\openjdk-22.0.1
+16-May-2024 23:20:03.896 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           22.0.1+8-16
+16-May-2024 23:20:03.896 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+16-May-2024 23:20:03.898 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\DevOps\week4\geocit\apache-tomcat-9.0.89
+16-May-2024 23:20:03.898 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\DevOps\week4\geocit\apache-tomcat-9.0.89
+16-May-2024 23:20:03.905 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+16-May-2024 23:20:03.905 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+16-May-2024 23:20:03.905 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+16-May-2024 23:20:03.905 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+16-May-2024 23:20:03.906 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+16-May-2024 23:20:03.906 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:/DevOps/week4/geocit/apache-tomcat-9.0.89/conf/logging.properties
+16-May-2024 23:20:03.906 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+16-May-2024 23:20:03.906 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+16-May-2024 23:20:03.906 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+16-May-2024 23:20:03.906 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+16-May-2024 23:20:03.906 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+16-May-2024 23:20:03.908 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:/DevOps/week4/geocit/apache-tomcat-9.0.89
+16-May-2024 23:20:03.908 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:/DevOps/week4/geocit/apache-tomcat-9.0.89
+16-May-2024 23:20:03.908 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:/DevOps/week4/geocit/apache-tomcat-9.0.89/temp
+16-May-2024 23:20:03.932 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.3.0] using APR version [1.7.4].
+16-May-2024 23:20:03.933 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+16-May-2024 23:20:03.933 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+16-May-2024 23:20:03.938 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+16-May-2024 23:20:04.216 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+16-May-2024 23:20:04.237 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [519] milliseconds
+16-May-2024 23:20:04.276 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+16-May-2024 23:20:04.276 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.89]
+16-May-2024 23:20:04.296 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [D:\DevOps\week4\geocit\apache-tomcat-9.0.89\webapps\citizen.war]
+16-May-2024 23:20:07.662 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-May-2024 23:20:18.963 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [D:\DevOps\week4\geocit\apache-tomcat-9.0.89\webapps\citizen.war] has finished in [14,666] ms
+16-May-2024 23:20:18.965 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\DevOps\week4\geocit\apache-tomcat-9.0.89\webapps\docs]
+16-May-2024 23:20:19.027 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\DevOps\week4\geocit\apache-tomcat-9.0.89\webapps\docs] has finished in [63] ms
+16-May-2024 23:20:19.028 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\DevOps\week4\geocit\apache-tomcat-9.0.89\webapps\examples]
+16-May-2024 23:20:20.016 SEVERE [main] org.apache.catalina.startup.HostConfig.deployDirectory Error deploying web application directory [D:\DevOps\week4\geocit\apache-tomcat-9.0.89\webapps\examples]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:602)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:571)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:603)
+		at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1175)
+		at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1888)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:123)
+		at org.apache.catalina.startup.HostConfig.deployDirectories(HostConfig.java:1086)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:470)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1584)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:312)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:114)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:402)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:345)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:776)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:721)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1203)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1193)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:749)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:211)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:415)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:878)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:735)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:473)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/examples]]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:419)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:186)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:599)
+		... 35 more
+	Caused by: java.lang.NoClassDefFoundError: websocket/drawboard/Room$Player
+		at java.base/java.lang.Class.getDeclaredMethods0(Native Method)
+		at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3601)
+		at java.base/java.lang.Class.getDeclaredMethods(Class.java:2686)
+		at org.apache.tomcat.websocket.pojo.PojoMethodMapping.<init>(PojoMethodMapping.java:112)
+		at org.apache.tomcat.websocket.server.WsServerContainer.addEndpoint(WsServerContainer.java:144)
+		at org.apache.tomcat.websocket.server.WsServerContainer.addEndpoint(WsServerContainer.java:120)
+		at org.apache.tomcat.websocket.server.WsSci.onStartup(WsSci.java:112)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4438)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		... 36 more
+	Caused by: java.lang.ClassNotFoundException: websocket.drawboard.Room$Player
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1308)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1120)
+		... 45 more
+16-May-2024 23:20:20.020 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\DevOps\week4\geocit\apache-tomcat-9.0.89\webapps\examples] has finished in [992] ms
+16-May-2024 23:20:20.020 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\DevOps\week4\geocit\apache-tomcat-9.0.89\webapps\host-manager]
+16-May-2024 23:20:20.075 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\DevOps\week4\geocit\apache-tomcat-9.0.89\webapps\host-manager] has finished in [55] ms
+16-May-2024 23:20:20.076 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\DevOps\week4\geocit\apache-tomcat-9.0.89\webapps\manager]
+16-May-2024 23:20:20.120 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\DevOps\week4\geocit\apache-tomcat-9.0.89\webapps\manager] has finished in [44] ms
+16-May-2024 23:20:20.120 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\DevOps\week4\geocit\apache-tomcat-9.0.89\webapps\ROOT]
+16-May-2024 23:20:20.146 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\DevOps\week4\geocit\apache-tomcat-9.0.89\webapps\ROOT] has finished in [26] ms
+16-May-2024 23:20:20.149 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+16-May-2024 23:20:20.166 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [15928] milliseconds
+16-May-2024 23:58:14.280 INFO [Thread-2] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+16-May-2024 23:58:14.282 INFO [Thread-2] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+16-May-2024 23:58:14.334 WARNING [Thread-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [citizen] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+16-May-2024 23:58:14.334 WARNING [Thread-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [citizen] appears to have started a thread named [cluster-1-localhost:27017] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+ java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1758)
+ com.mongodb.ServerMonitor$ServerMonitorRunnable.waitForSignalOrTimeout(ServerMonitor.java:178)
+ com.mongodb.ServerMonitor$ServerMonitorRunnable.waitForNext(ServerMonitor.java:159)
+ com.mongodb.ServerMonitor$ServerMonitorRunnable.run(ServerMonitor.java:125)
+ java.base/java.lang.Thread.run(Thread.java:1570)
+16-May-2024 23:58:14.335 WARNING [Thread-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [citizen] appears to have started a thread named [MongoCleaner2040912760] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/java.lang.Thread.sleepNanos0(Native Method)
+ java.base/java.lang.Thread.sleepNanos(Thread.java:491)
+ java.base/java.lang.Thread.sleep(Thread.java:522)
+ com.mongodb.Mongo$CursorCleanerThread.run(Mongo.java:796)
+16-May-2024 23:58:14.344 INFO [Thread-2] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+16-May-2024 23:58:14.359 INFO [Thread-2] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
